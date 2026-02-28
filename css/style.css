@@ -1,8 +1,45 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6ec;
 }
 
 .nav-item {
   font-size: 1.2rem;
   font-weight: 600;
+}
+
+.recipe-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+.recipe-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.recipe-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.recipe-btn:hover {
+  background-color: darkgreen;
+  color: white;
+  transform: translateY(-1px);
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.05);
 }

@@ -1,13 +1,9 @@
 # 🍽️ TheOdinProject — Recipes
 
+![TheOdinProject - Recipes - Preview](project_preview.png)
+
 A recipe website built as part of [The Odin Project](https://www.theodinproject.com/) curriculum.  
 This project focuses on foundational HTML, CSS & JavaScript skills by building a structured, multi-page recipe site with a responsive design.
-
----
-
-## 📸 Preview
-
-> _Screenshot coming soon_
 
 ---
 
@@ -49,7 +45,20 @@ This project is part of [The Odin Project](https://www.theodinproject.com/) — 
 
 ---
 
-## 📬 Contact
+## 📸 Screenshots
+
+> ![Home page preview](home_preview.png)
+
+---
+
+> ![Recipe page preview](recipe_preview.png)
+
+---
+
+## 👨‍💻 Author
+
+Maillet Nills  
+Computer Science Student – BTS SIO
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://maillet-nills.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nills-maillet-9299a9382/)

@@ -10,9 +10,143 @@
       rel="stylesheet" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body>
+  <body class="d-flex flex-column">
     <header id="header-container"></header>
-    <main></main>
+    <main class="flex-grow-1">
+      <section
+        class="py-5 banner-section text-white text-center"
+        style="
+          background:
+            linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url(../images/carbonara-bg.jpg) no-repeat center center;
+          background-size: cover;
+        ">
+        <div class="container">
+          <div class="row">
+            <div class="text-center">
+              <h1 class="display-2 mb-4">Spaghetti alla Carbonara</h1>
+            </div>
+            <div>
+              <p class="lead text-center mb-4">
+                The combination of crispy pancetta, creamy egg sauce, and
+                perfectly cooked pasta creates a harmonious blend of flavors
+                that will satisfy your taste buds. Each bite is a comforting and
+                indulgent experience that will leave you craving for more.
+                Whether you're a fan of traditional carbonara or prefer a
+                vegetarian version, this recipe is sure to become a favorite in
+                your household!
+              </p>
+            </div>
+            <div class="fs-bold text-center mb-4">
+              <p>
+                Below, you'll find the recipe for this delicious carbonara that
+                will transport you to the heart of Italy with every bite!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="row">
+            <div>
+              <h2 class="fw-bold">Featured Ingredients :</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+              <div
+                class="ingredient-card d-flex flex-column align-items-center">
+                <img
+                  src="../images/ingredients/pancetta.png"
+                  alt="Pancetta"
+                  class="ingredient-img mb-2" />
+                <span>150g Pancetta</span>
+              </div>
+              <div
+                class="ingredient-card d-flex flex-column align-items-center">
+                <img
+                  src="../images/ingredients/egg.png"
+                  alt="Eggs"
+                  class="ingredient-img mb-2" />
+                <span>3 Large Eggs</span>
+              </div>
+              <div
+                class="ingredient-card d-flex flex-column align-items-center">
+                <img
+                  src="../images/ingredients/parmesan.png"
+                  alt="Parmesan Cheese"
+                  class="ingredient-img mb-2" />
+                <span>50g Parmesan Cheese</span>
+              </div>
+              <div
+                class="ingredient-card d-flex flex-column align-items-center">
+                <img
+                  src="../images/ingredients/black-pepper.png"
+                  alt="Black Pepper"
+                  class="ingredient-img mb-2" />
+                <span>Freshly Ground Black Pepper</span>
+              </div>
+              <div
+                class="ingredient-card d-flex flex-column align-items-center">
+                <img
+                  src="../images/ingredients/spaghetti.png"
+                  alt="Spaghetti"
+                  class="ingredient-img mb-2" />
+                <span>400g Spaghetti</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-5">
+        <div class="container">
+          <h2 class="fw-bold">How to Make Carbonara :</h2>
+          <div class="row steps-card mt-5">
+            <div class="col-md-7">
+              <p class="mb-4 fw-bold">
+                &#8594; Follow these simple steps to cook a delicious carbonara:
+              </p>
+              <ol>
+                <li>
+                  Cook the spaghetti according to the package instructions until
+                  al dente. Drain and set aside.
+                </li>
+                <li>
+                  In a large skillet, cook the pancetta over medium heat until
+                  crispy. Remove from heat and set aside.
+                </li>
+                <li>
+                  In a bowl, whisk together the eggs, grated Parmesan cheese,
+                  and a generous amount of freshly ground black pepper until
+                  well combined.
+                </li>
+                <li>
+                  Return the skillet with the pancetta to low heat. Add the
+                  cooked spaghetti to the skillet and toss to combine with the
+                  pancetta.
+                </li>
+                <li>
+                  Remove the skillet from heat and quickly pour the egg mixture
+                  over the spaghetti, tossing vigorously to coat the pasta
+                  evenly. The residual heat from the pasta will cook the eggs
+                  and create a creamy sauce.
+                </li>
+              </ol>
+            </div>
+            <div
+              class="col-md-5 d-flex align-items-center justify-content-center">
+              <img
+                src="../images/carbonara.jpg"
+                alt="Carbonara"
+                class="img-fluid border rounded recipe-image" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer id="footer-container"></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
